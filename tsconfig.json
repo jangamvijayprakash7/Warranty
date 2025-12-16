@@ -29,6 +29,10 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
+<<<<<<< HEAD
   ],
+=======
+, "app/Navbar"  ],
+>>>>>>> vijay/main
   "exclude": ["node_modules"]
 }
