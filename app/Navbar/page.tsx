@@ -11,7 +11,6 @@ import {
   Plus,
   Handbag,
 } from "lucide-react";
-import DashboardPage from "./Dashboard/page";
 
 const navItems = [
   { name: "Dashboard", icon: House, href: "/" },
@@ -35,7 +34,7 @@ export default function Sidebar() {
     <div>
       {/* Top navbar */}
       {/*Search bar */}
-      <div className="fixed pl-130 border-b border-gray-500 top-0 w-full p-5 bg-blue-100 h-20">
+      <div className="fixed pl-130 border-b border-gray-700 top-0 w-full p-5 bg-blue-100 h-20">
         <div className=" flex gap-32 ">
           <form onSubmit={handleSearch} className="flex h-12">
             <input
@@ -93,7 +92,6 @@ export default function Sidebar() {
         </button>
       </aside>
       <div className="ml-70 mt-20 fixed w-410">
-        <DashboardPage />
       </div>
     </div>
   );
